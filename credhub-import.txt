@@ -1,0 +1,19 @@
+credentials:
+- name: /concourse/main/json_key
+  type: value
+  value: |
+    {
+      "type": "service_account",
+      "project_id": "palforpe-0331-jared-schmidt-ci",
+      "private_key_id": "0a5939f6589b73a1e806fc4f90d3314ac5475296",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDCuBDhZxdiu350\nx/e2Vqao6Qt35y73oIpCSrZhJhlrQRsZotSnUxaqispNhqNn72s8WANwZujikSsm\ntkWZrR0C85qbQRap35xPO38o76XS2RiRbvGAtFOSSqxh9EAWysriil6FJA9nQDka\nR7TDEKUqeAtws93gHBzyJiUdEQHfU2zbGlnkGM0zdCVMZM47DA5LBSLtCQCzXswL\nksbJq+QByyPVHHyvSscDLMMeokFaNeI0HItE2GxdceX4tjtv/nmA9cvBvloN8PDs\nVomJdq7OhOeTA+ObndBDYrMjIV3oLGGByYLWBFUTcmK6HN3slj7yKp2fVxmCfJxk\ntUUkjTfNAgMBAAECgf9yA+8RpmVX6qShI0LPNO3Hxq2joW34kVUwe/VOuhn1AEP3\npUcSsuESx/6tM0Kuf5v+OYr9LHgw/wL4jluZIHfCwq5E0/GK7ORNGjyn1UT25Fr+\nZxGbyy5XYS71X4/A+/2dQmhJWlQRB6ObP8flPSasap5IRjzxsFFCrBNCccyNQ8ZE\n+UdK1OPgZqafxNQBk/J5d4hXOdK1rucL9M9vmJOXqSTUhF1vdb2sN2ip6Kx27hUE\nXOJzipoOx1WQDSHWPq7/Ad8KC81YqfZZEZCXu0SD6KvQcrqbb8yoBabE4hyYYmkw\nszpszJL7r0Un77Vrb4FpzjrNGE3DCVU4vBTwZgECgYEA7Jh8NCGOZS39sW5r5uhZ\njrynjp3hQjlaY8D+wq0WKjvQcV5LdZsAZRqthHx6vQyWo0A7HJgS+cPmqiHcGVot\nwoi9b7AgiZrhjF/YcvKh8TKaxwm56KxNFXESAOZL2wn7yDQWv300jVQFmHHMYgDd\n8gPqGse3MR+7Ye2VShZVHwECgYEA0rBY5kmcXkXctAmojCs8kZHB0MCf3VPAanXb\nIlpli1c/+NdfzvlDwzKEkgIaTYcrNMvXWn+kDgLy6Ugasmo4V/IWbheQbDbVJFCq\no+QHs3P99fjyS8pQjDXX8O3fynYw7g3OvVOkO5E2u4ajX3m72AiIgc5cRTGAVzph\n5WlHZM0CgYEAzJ4H9PH8e6bt3FDaQuY55gdkhiQm16ZQdStJaUZWgAog+JsLedem\n3MnYvVcGs486jE+Vj+I5rwbs68DC4K4sGy01YG2bhkaLwGJ4CNmskrQoRfE0dnTl\naaDTaDHD8tjMh1X9QnjfRUcgW7o3f56uVItsIOMOnQ6LeWMHFP8BeQECgYAY0Kp3\n3T2soN/g2K5gbAtDPf6s/rMVl3K3V1BLGIiTQ+CGB6ACObuwdvfEVrkQXpZJLqUb\nxKLm/5PqxBJY50fhm+LmbqIVDNRH5bRjf00k5smHuh2XramVChZ4CxxrtUYIE9pA\n1GQom+7tYWtGqIjmZgLl/w9BGxZ5r6euJJtDFQKBgEWg1bb23pHcHPMX3luj5NIY\nV33aBaBaRougmOUen3wYAUwYClNzP3akbLYKaRNHiUaUQUZCEHc4OxKLIlb44n1Z\n8211FO6BXOQdvuIGV61PPXtWujcL3si8aMP12B8X8Goccgw5hSNThku7gmamQCv0\nuSsK562+A4ZPu3ZBEW2V\n-----END PRIVATE KEY-----\n",
+      "client_email": "jared-blobstore@palforpe-0331-jared-schmidt-ci.iam.gserviceaccount.com",
+      "client_id": "110103612778611268725",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jared-blobstore%40palforpe-0331-jared-schmidt-ci.iam.gserviceaccount.com"
+    }
+- name: /concourse/main/bucket
+  type: value
+  value: palforpe-0331-jared-schmidt-ci-jared-artifacts
