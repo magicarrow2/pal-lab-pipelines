@@ -37,7 +37,7 @@ resources:
   type: gcs
   source:
     bucket: ((bucket))
-    regexp: \[healthwatch,(.*)\].*.yml
+    regexp: \[healthwatch,(.*)\].*.pivotal
     json_key: ((json_key))    
 
 - name: healthwatch-stemcell
@@ -51,7 +51,7 @@ resources:
   type: gcs
   source:
     bucket: ((bucket))
-    regexp: \[elastic-runtime,(.*)\].*.yml
+    regexp: \[elastic-runtime,(.*)\].*.pivotal
     json_key: ((json_key))
 
 - name: elastic-runtime-stemcell
